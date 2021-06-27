@@ -1,0 +1,16 @@
+name: storage_worker
+description: Storage Web Worker based on IndexedDB.
+homepage: https://github.com/mbaumgartenbr/storage_worker
+
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+
+dependencies:
+  js: ^0.6.3
+
+dev_dependencies:
+  lints: ^1.0.1
+  test: ^1.16.0
